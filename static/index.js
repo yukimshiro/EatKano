@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '昕昕子很生气给你来了一拳';
+        if (cps <= 8) return '快来跟昕宝一起滑板8';
+        if (cps <= 10)  return '这手速，您就是昕宝本昕';
+        if (cps <= 15) return '您就是昕宝本昕';
+        return '您就是昕宝本昕？';
     }
 
     function toStr(obj) {
